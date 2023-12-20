@@ -47,7 +47,7 @@ public class Asiento {
 
     public int seleccion(){ return elegir;}
 
-    void confirmar(){
+    public void confirmar(){
         this.estado = 1;
         this.elegir = 0;
     }
