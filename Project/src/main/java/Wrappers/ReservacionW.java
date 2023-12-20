@@ -15,8 +15,8 @@ import java.awt.event.ActionListener;
 public class ReservacionW extends JPanel {
 
     /** Atributos **/
-    Reservacion reservacion; //Contiene referencia de reservación
-    JButton ruta; //Contiene botón vinculado a una ruta
+    private Reservacion reservacion; //Contiene referencia de reservación
+    private JButton ruta; //Contiene botón vinculado a una ruta
 
     /**
      * Método constructor
